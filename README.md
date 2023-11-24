@@ -1,8 +1,7 @@
 # rust_v_cpp_popl
 
 ### Problem Statement:
-*Original Statement:*
-The goal of this project is to create a notemaking program capable of creating, editing, and deleting notes.The comparison with C++ is extended to evaluate Rust's ownership model and memory safety. This not only addresses common notemaking requirements but also explores Rust's suitability for real-world applications.
+The primary objective is to implement essential functionalities, such as creating, editing, and deleting notes, in both C++ and Rust and assess the execution time of these operations.. This not only addresses common notemaking requirements but also explores Rust's suitability for real-world applications.
 
 ### Software Architecture:
 *Architecture Overview:*
@@ -38,20 +37,7 @@ The software architecture follows a modular and organized approach:
        is only one owner of a piece of data at a time.  
 
 
-### Steps to run CPP program
-1. Open the terminal in the directory where cpp program is stored.
-2. Type `make` command to build the output file.
-3. Type `make run` to run the code and see program execution time.
-4. Type `make profile` for profiling of function.
-5. Type `make memory` to obtain memory leaks and other stats.
-6. Type `make thread_monitor` this shows threads being currently used by program.
 
-### Steps to run Rust program
-1. Open the terminal in the directory where rust program is stored.
-2. Type `cargo build --release` command to build the rust project.
-3. Type `time cargo run` to see program execution time.
-4. Type `cargo profiler callgrind` for profiling of function.
-5. Type `valgrind --tool=memcheck cargo run` to obtain memory stats
 
 ### Potential for future work:
 1. Additional Functionality and Refinements:
