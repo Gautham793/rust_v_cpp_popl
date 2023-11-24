@@ -23,14 +23,14 @@ The software architecture follows a modular and organized approach:
     -  The use of Option<usize> for selected_note_index reflects Rust's commitment to explicit handling of potential absence, avoiding null-pointer-                      related issues.(editor.rs, line 6)
     -  Rust's Option type explicitly conveys the possibility of a value being absent, promoting safer handling and reducing runtime errors associated with                null references.
 
-2.. *Functional Programming in Rust:*
+2. *Functional Programming in Rust:*
     -  Rust incorporates functional programming aspects, such as immutable variables and higher-order functions, contributing to expressive and concise code.
 
-4. *Result Type for File Operations (Rust):*
+3. *Result Type for File Operations (Rust):*
     -  The use of the Result type in file operations explicitly handles potential errors during file I/O operations (editor.rs, line 64).
     -   Rust's Result type emphasizes explicit error handling, making it clear when operations can fail and encouraging developers to handle errors gracefully.
 
-5. *Ownership and Borrowing (Rust):*
+4. *Ownership and Borrowing (Rust):*
     -  The ownership model in Rust dictates how memory is managed, ensuring memory safety without relying on a garbage collector or sacrificing 
        performance (editor.rs, line 11).
     -  Rust's ownership system prevents data races and null pointer dereferences by enforcing strict rules on how references are used and ensuring there
