@@ -13,7 +13,7 @@ The software architecture follows a modular and organized approach:
 -Undo Buffer: An undo buffer is implemented to enable reverting to previous note content.
 
 *Testing Component:*
-The testing component is localized, comprising unit tests for each functionality. The application does not incorporate a database; instead, notes are persisted as text files.
+-The testing component is localized, comprising unit tests for each functionality. The application does not incorporate a database; instead, notes are persisted as text files.
 
 *Diagram:*
 
