@@ -5,7 +5,7 @@ The primary objective is to implement essential functionalities, such as creatin
 
 ### Software Architecture:
 *Architecture Overview:*
-The software architecture follows a modular and organized approach:
+ - The software architecture follows a modular and organized approach:
 
 - Modules: The program is divided into modules, separating concerns related to notes and the editor.
 - File Handling: Notes are stored as text files, and the program utilizes standard file operations.
@@ -34,7 +34,7 @@ The software architecture follows a modular and organized approach:
        is only one owner of a piece of data at a time.  
 
 ### RESULTS
-![result](https://github.com/Gautham793/rust_v_cpp_popl/assets/142087982/6c7f9eb2-1d10-4b01-a588-a68a6d4a9566)
+![result 1](https://github.com/Gautham793/rust_v_cpp_popl/assets/142087982/b321e357-8360-4180-a7cf-c20a05373fb6)
 
 
 
