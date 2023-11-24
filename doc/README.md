@@ -36,7 +36,29 @@ The software architecture follows a modular and organized approach:
     -  Rust's ownership system prevents data races and null pointer dereferences by enforcing strict rules on how references are used and ensuring there
        is only one owner of a piece of data at a time.  
 
+### RESULTS
+![result](https://github.com/Gautham793/rust_v_cpp_popl/assets/142087982/6c7f9eb2-1d10-4b01-a588-a68a6d4a9566)
 
+ *Data Preparation:*
+    -  Provided two sets of data, y_values_cpp representing execution times for a C++ implementation, and y_values_rust representing execution times for a Rust            implementation.
+    -  Both sets are associated with different iterations (x_values)
+
+*Graphical Representation:*
+    -  We used Matplotlib to create a log-log plot, where both x and y axes are on a logarithmic scale, allowing us to visualize a wide range of data points more         clearly.
+    -  The blue markers and curve represent C++ execution times, while the orange markers and curve represent Rust execution times.
+
+*Statistical Analysis:*
+    -  We conducted a paired t-test using the ttest_rel function from the scipy.stats module. The paired t-test is appropriate here because each data point at a          specific iteration comes from the same experiment, with one data point from the C++ implementation and one from the Rust implementation.
+    -  The null hypothesis of the test is that there is no significant difference between the C++ and Rust execution times.
+
+*Annotation on the Plot:*
+    -  The t-statistic and p-value obtained from the t-test are annotated on the plot. The t-statistic measures the difference between the sample means,
+       and the p-value indicates the probability of observing such an extreme result if the null hypothesis is true.
+
+*Detailed Analysis (Printed Output):*
+    -  The printed output below the plot provides a technical interpretation of the statistical analysis.
+    -  It checks if the p-value is below a significance level (0.05 is commonly used). If so, it indicates that there is a statistically significant difference           between the C++ and Rust execution times.
+    -  Depending on the sign of the t-statistic, it provides information about which language performs significantly better.
 
 
 ### Potential for future work:
