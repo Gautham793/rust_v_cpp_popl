@@ -7,9 +7,9 @@ The primary objective is to implement essential functionalities, such as creatin
 *Architecture Overview:*
 The software architecture follows a modular and organized approach:
 
--Modules: The program is divided into modules, separating concerns related to notes and the editor.
--File Handling: Notes are stored as text files, and the program utilizes standard file operations.
--Undo Buffer: An undo buffer is implemented to enable reverting to previous note content.
+- Modules: The program is divided into modules, separating concerns related to notes and the editor.
+- File Handling: Notes are stored as text files, and the program utilizes standard file operations.
+- Undo Buffer: An undo buffer is implemented to enable reverting to previous note content.
 
 *Testing Component:*
 -The testing component is localized, comprising unit tests for each functionality. The application does not incorporate a database; instead, notes are persisted as text files.
