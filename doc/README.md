@@ -45,20 +45,20 @@ The software architecture follows a modular and organized approach:
 
 *Graphical Representation:*
     -  We used Matplotlib to create a log-log plot, where both x and y axes are on a logarithmic scale, allowing us to visualize a wide range of data points more         clearly.
-    -  The blue markers and curve represent C++ execution times, while the orange markers and curve represent Rust execution times.
+    -   The blue markers and curve represent C++ execution times, while the orange markers and curve represent Rust execution times.
 
 *Statistical Analysis:*
-    -  We conducted a paired t-test using the ttest_rel function from the scipy.stats module. The paired t-test is appropriate here because each data point at a          specific iteration comes from the same experiment, with one data point from the C++ implementation and one from the Rust implementation.
-    -  The null hypothesis of the test is that there is no significant difference between the C++ and Rust execution times.
+    -   We conducted a paired t-test using the ttest_rel function from the scipy.stats module. The paired t-test is appropriate here because each data point at a          specific iteration comes from the same experiment, with one data point from the C++ implementation and one from the Rust implementation.
+    -   The null hypothesis of the test is that there is no significant difference between the C++ and Rust execution times.
 
 *Annotation on the Plot:*
-    -  The t-statistic and p-value obtained from the t-test are annotated on the plot. The t-statistic measures the difference between the sample means,
+    -   The t-statistic and p-value obtained from the t-test are annotated on the plot. The t-statistic measures the difference between the sample means,
        and the p-value indicates the probability of observing such an extreme result if the null hypothesis is true.
 
 *Detailed Analysis (Printed Output):*
-    -  The printed output below the plot provides a technical interpretation of the statistical analysis.
-    -  It checks if the p-value is below a significance level (0.05 is commonly used). If so, it indicates that there is a statistically significant difference           between the C++ and Rust execution times.
-    -  Depending on the sign of the t-statistic, it provides information about which language performs significantly better.
+    -   The printed output below the plot provides a technical interpretation of the statistical analysis.
+    -   It checks if the p-value is below a significance level (0.05 is commonly used). If so, it indicates that there is a statistically significant difference           between the C++ and Rust execution times.
+    -   Depending on the sign of the t-statistic, it provides information about which language performs significantly better.
 
 
 ### Potential for future work:
