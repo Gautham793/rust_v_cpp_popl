@@ -61,5 +61,4 @@ The software architecture follows a modular and organized approach:
 3. Advanced Ownership Model Exploration (Rust):
      - Explore more advanced use cases of Rust's ownership model, such as introducing lifetime annotations and borrowing patterns, to optimize resource management        further.
 4. Concurrency Optimization:
-     - Implement concurrency optimizations, leveraging Rust's ownership model to introduce safe and efficient concurrent operations. This can significantly       
-       improve performance, especially in scenarios with multiple simultaneous note edits.
+     - Implement concurrency optimizations, leveraging Rust's ownership model to introduce safe and efficient concurrent operations. This can significantly               improve performance, especially in scenarios with multiple simultaneous note edits.
