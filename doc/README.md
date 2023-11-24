@@ -40,7 +40,7 @@ The software architecture follows a modular and organized approach:
 ![result](https://github.com/Gautham793/rust_v_cpp_popl/assets/142087982/6c7f9eb2-1d10-4b01-a588-a68a6d4a9566)
 
  *Data Preparation:*
-    -  Provided two sets of data, y_values_cpp representing execution times for a C++ implementation, and y_values_rust representing execution times for a Rust            implementation.
+    -  Provided two sets of data, y_values_cpp representing execution times for a C++ implementation, and y_values_rust representing execution times for a Rust           implementation.
     -  Both sets are associated with different iterations (x_values)
 
 *Graphical Representation:*
